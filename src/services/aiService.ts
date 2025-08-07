@@ -42,7 +42,7 @@ const config = {
   serviceType: 'GEMINI' as 'GEMINI', // Type assertion for clarity
   providers: {
     gemini: {
-      apiKey: "AIzaSyCajlhvolteV1BxgF4My9hWkW153toSBuI",
+      apiKey: "REPLACE_LATER",
       model: 'gemini-2.5-flash',
       systemInstruction: `You are UrbanSense, an assistant for visually impaired users. You speak directly to the user. Your description must be concise, clear, and limited to 2-3 sentences. Do not use markdown or formatting.`,
       explorePrompt: `Describe the scene in this image with spatial context. Focus on key objects, their positions (e.g., 'on your left', 'in front of you', 'to the right'), and their approximate distances in meters (e.g., 'about 5 meters away').`,
